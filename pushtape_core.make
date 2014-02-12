@@ -4,9 +4,6 @@ api = 2
 
 ;Contrib
 
-projects[backstretch][version] = 2.x-dev
-projects[backstretch][subdir] = contrib
-
 projects[calendar][version] = 3.4
 projects[calendar][subdir] = contrib
 
