@@ -40,6 +40,9 @@ projects[media_soundcloud][subdir] = contrib
 projects[mediafront][version] = 2.x-dev
 projects[mediafront][subdir] = contrib
 
+projects[menu_item_visibility][version] = 1.x-dev
+projects[menu_item_visibility][subdir] = contrib
+
 projects[multiform][version] = 1.0
 projects[multiform][subdir] = contrib
 
