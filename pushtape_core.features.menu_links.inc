@@ -25,30 +25,8 @@ function pushtape_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => 9,
+    'weight' => -50,
     'customized' => 0,
-  );
-  // Exported menu link: management_configuration:admin/config
-  $menu_links['management_configuration:admin/config'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin/config',
-    'router_path' => 'admin/config',
-    'link_title' => 'Configuration',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Administer settings.',
-      ),
-      'alter' => TRUE,
-      'identifier' => 'management_configuration:admin/config',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => -39,
-    'customized' => 1,
-    'parent_identifier' => 'management_administration:admin',
   );
   // Exported menu link: management_content:admin/content
   $menu_links['management_content:admin/content'] = array(
@@ -60,15 +38,15 @@ function pushtape_core_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'Find and manage content.',
       ),
-      'identifier' => 'management_content:admin/content',
       'alter' => TRUE,
+      'identifier' => 'management_content:admin/content',
     ),
     'module' => 'system',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => -49,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
@@ -82,15 +60,15 @@ function pushtape_core_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'Manage files used on your site.',
       ),
-      'identifier' => 'management_files:admin/content/file',
       'alter' => TRUE,
+      'identifier' => 'management_files:admin/content/file',
     ),
     'module' => 'system',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -48,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
@@ -135,27 +113,49 @@ function pushtape_core_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
-  // Exported menu link: management_pages:admin/panopoly/pages
-  $menu_links['management_pages:admin/panopoly/pages'] = array(
+  // Exported menu link: management_pages:admin/structure/pages
+  $menu_links['management_pages:admin/structure/pages'] = array(
     'menu_name' => 'management',
-    'link_path' => 'admin/panopoly/pages',
-    'router_path' => 'admin/panopoly/pages',
+    'link_path' => 'admin/structure/pages',
+    'router_path' => 'admin/structure/pages',
     'link_title' => 'Pages',
     'options' => array(
       'attributes' => array(
-        'title' => 'This is the page library for the site. See your landing pages, page templates, and overriden page templates.',
+        'title' => 'Add, edit and remove overridden system pages and user defined pages from the system.',
       ),
       'alter' => TRUE,
-      'identifier' => 'management_pages:admin/panopoly/pages',
+      'identifier' => 'management_pages:admin/structure/pages',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_identifier' => 'management_administration:admin',
+  );
+  // Exported menu link: management_rss-publishing:admin/config/services/rss-publishing
+  $menu_links['management_rss-publishing:admin/config/services/rss-publishing'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/config/services/rss-publishing',
+    'router_path' => 'admin/config/services/rss-publishing',
+    'link_title' => 'RSS publishing',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Configure the site description, the number of items per feed and whether feeds should be titles/teasers/full-text.',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'management_rss-publishing:admin/config/services/rss-publishing',
     ),
     'module' => 'system',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-    'parent_identifier' => 'management_administration:admin',
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'management_web-services:admin/config/services',
   );
   // Exported menu link: management_service-links:admin/config/services/service-links
   $menu_links['management_service-links:admin/config/services/service-links'] = array(
@@ -211,27 +211,27 @@ function pushtape_core_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'Tools related to web services.',
       ),
-      'identifier' => 'management_web-services:admin/config/services',
       'alter' => TRUE,
+      'identifier' => 'management_web-services:admin/config/services',
     ),
     'module' => 'system',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -44,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
   // Translatables
   // Included for use with string extractors like potx.
   t('Administration');
-  t('Configuration');
   t('Content');
   t('Files');
   t('Follow');
   t('Main menu');
   t('Pages');
+  t('RSS publishing');
   t('Service Links');
   t('Site information');
   t('Web services');
