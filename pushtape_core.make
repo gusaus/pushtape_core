@@ -34,41 +34,11 @@ projects[flexslider][subdir] = contrib
 projects[media_colorbox][version] = 1.x-dev
 projects[media_colorbox][subdir] = contrib
 
-projects[media_soundcloud][version] = 1.0
-projects[media_soundcloud][subdir] = contrib
 
-projects[mediafront][version] = 2.x-dev
-projects[mediafront][subdir] = contrib
 
-projects[menu_item_visibility][version] = 1.x-dev
-projects[menu_item_visibility][subdir] = contrib
 
-projects[multiform][version] = 1.0
-projects[multiform][subdir] = contrib
 
-projects[multiupload_filefield_widget][subdir] = 1.13
-projects[multiupload_filefield_widget][subdir] = contrib
 
-projects[multiupload_imagefield_widget][subdir] = 1.3
-projects[multiupload_imagefield_widget][subdir] = contrib
-
-projects[plupload][subdir] = 2.x-dev
-projects[plupload][subdir] = contrib
-
-projects[responsive_menus][subdir] = 1.4
-projects[responsive_menus][subdir] = contrib
-
-projects[responsive_tables][version] = 2.x-dev
-projects[responsive_tables][subdir] = contrib
-
-projects[soundmanager2][version] = 2.0-beta1
-projects[soundmanager2][subdir] = contrib
-
-projects[sweaver][version] = 1.x-dev
-projects[sweaver][subdir] = contrib
-
-projects[views_responsive_grid][version] = 1.3
-projects[views_responsive_grid][subdir] = contrib
 
 
 
