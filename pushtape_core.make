@@ -4,6 +4,9 @@ api = 2
 
 ;Contrib
 
+projects[better_formats][version] = 1.x-dev
+projects[better_formats][subdir] = contrib
+
 projects[calendar][version] = 3.4
 projects[calendar][subdir] = contrib
 
