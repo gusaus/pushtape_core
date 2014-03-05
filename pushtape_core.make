@@ -32,7 +32,6 @@ projects[features][version] = 2.x-dev
 projects[features][subdir] = contrib
 projects[features][patch][1964994] = http://drupal.org/files/issues/features_strict-warning-menu-links_2155945-3.patch
 
-
 projects[features_override][subdir] = 2.0-rc1
 projects[features_override][subdir] = contrib
 
