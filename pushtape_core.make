@@ -28,6 +28,11 @@ projects[pushtape_discography_adpt][subdir] = contrib
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib
 
+projects[features][version] = 2.x-dev
+projects[features][subdir] = contrib
+projects[features][patch][1964994] = http://drupal.org/files/issues/features_strict-warning-menu-links_2155945-3.patch
+
+
 projects[features_override][subdir] = 2.0-rc1
 projects[features_override][subdir] = contrib
 
@@ -39,6 +44,7 @@ projects[media_colorbox][subdir] = contrib
 
 projects[menu_item_visibility][version] = 1.x-dev
 projects[menu_item_visibility][subdir] = contrib
+projects[menu_item_visibility][patch][1964994] = http://drupal.org/files/issues/menu_item_visibility_features_integration_1964994_3.patch
 
 projects[multiform][version] = 1.0
 projects[multiform][subdir] = contrib
