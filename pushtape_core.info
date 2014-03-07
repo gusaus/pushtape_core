@@ -13,9 +13,10 @@ dependencies[] = flexslider_views
 dependencies[] = menu
 dependencies[] = menu_item_visibility
 dependencies[] = page_manager
+dependencies[] = panopoly_core
 dependencies[] = responsive_menus
 dependencies[] = strongarm
-datestamp = 1394046552
+datestamp = 1394129940
 features[context][] = footer
 features[ctools][] = context:context:3
 features[ctools][] = page_manager:pages_default:1
@@ -37,11 +38,4 @@ features[menu_links][] = management_rss-publishing:admin/config/services/rss-pub
 features[menu_links][] = management_service-links:admin/config/services/service-links
 features[menu_links][] = management_site-information:admin/config/system/site-information
 features[menu_links][] = management_web-services:admin/config/services
-
-
-; Information added by drush on 2014-03-05
-version = "7.x-1.x-panels-dev"
-core = "7.x"
-project = "pushtape_core"
-datestamp = "1394046452"
-
+features[variable][] = panels_page_allowed_types
