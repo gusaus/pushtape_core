@@ -35,14 +35,8 @@ projects[features][patch][1964994] = http://drupal.org/files/issues/features_str
 projects[features_override][subdir] = 2.0-rc1
 projects[features_override][subdir] = contrib
 
-projects[file_entity][version] = 2.x-dev
-projects[file_entity][subdir] = contrib
-
 projects[flexslider][version] = 2.x-dev
 projects[flexslider][subdir] = contrib
-
-projects[media][version] = 2.x-dev
-projects[media][subdir] = contrib
 
 projects[media_colorbox][version] = 1.x-dev
 projects[media_colorbox][subdir] = contrib
