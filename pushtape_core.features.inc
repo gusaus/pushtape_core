@@ -29,11 +29,6 @@ function pushtape_core_menu_item_visibility_export_fields() {
         'rid' => 3,
       ),
     ),
-    'management_panopoly:admin/panopoly' => array(
-      0 => array(
-        'rid' => 3,
-      ),
-    ),
     'management_structure:admin/structure' => array(
       0 => array(
         'rid' => 3,

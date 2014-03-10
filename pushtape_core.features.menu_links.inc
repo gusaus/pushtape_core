@@ -10,6 +10,24 @@
 function pushtape_core_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: management_administration:admin
+  $menu_links['management_administration:admin'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin',
+    'router_path' => 'admin',
+    'link_title' => 'Administration',
+    'options' => array(
+      'alter' => TRUE,
+      'identifier' => 'management_administration:admin',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => 9,
+    'customized' => 0,
+  );
   // Exported menu link: management_content:admin/content
   $menu_links['management_content:admin/content'] = array(
     'menu_name' => 'management',
@@ -28,7 +46,7 @@ function pushtape_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
@@ -50,9 +68,31 @@ function pushtape_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -49,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
+  );
+  // Exported menu link: management_follow:admin/config/services/follow
+  $menu_links['management_follow:admin/config/services/follow'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/config/services/follow',
+    'router_path' => 'admin/config/services/follow',
+    'link_title' => 'Follow',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Configure the site-wide web service follow links.',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'management_follow:admin/config/services/follow',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'management_web-services:admin/config/services',
   );
   // Exported menu link: management_main-menu:admin/structure/menu/manage/main-menu
   $menu_links['management_main-menu:admin/structure/menu/manage/main-menu'] = array(
@@ -62,6 +102,9 @@ function pushtape_core_menu_default_menu_links() {
     'link_title' => 'Main menu',
     'options' => array(
       'alter' => TRUE,
+      'attributes' => array(
+        'title' => '',
+      ),
       'identifier' => 'management_main-menu:admin/structure/menu/manage/main-menu',
     ),
     'module' => 'menu',
@@ -69,7 +112,7 @@ function pushtape_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -48,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
@@ -91,9 +134,53 @@ function pushtape_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
+  );
+  // Exported menu link: management_rss-publishing:admin/config/services/rss-publishing
+  $menu_links['management_rss-publishing:admin/config/services/rss-publishing'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/config/services/rss-publishing',
+    'router_path' => 'admin/config/services/rss-publishing',
+    'link_title' => 'RSS publishing',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Configure the site description, the number of items per feed and whether feeds should be titles/teasers/full-text.',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'management_rss-publishing:admin/config/services/rss-publishing',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'management_web-services:admin/config/services',
+  );
+  // Exported menu link: management_service-links:admin/config/services/service-links
+  $menu_links['management_service-links:admin/config/services/service-links'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/config/services/service-links',
+    'router_path' => 'admin/config/services/service-links',
+    'link_title' => 'Service Links',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Control which and where service links should be active.',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'management_service-links:admin/config/services/service-links',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'management_web-services:admin/config/services',
   );
   // Exported menu link: management_site-information:admin/config/system/site-information
   $menu_links['management_site-information:admin/config/system/site-information'] = array(
@@ -135,16 +222,20 @@ function pushtape_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => -44,
+    'weight' => -46,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
   // Translatables
   // Included for use with string extractors like potx.
+  t('Administration');
   t('Content');
   t('Files');
+  t('Follow');
   t('Main menu');
   t('Pages');
+  t('RSS publishing');
+  t('Service Links');
   t('Site information');
   t('Web services');
 
