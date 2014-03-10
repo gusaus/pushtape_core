@@ -39,6 +39,21 @@ function pushtape_core_menu_item_visibility_export_fields() {
         'rid' => 3,
       ),
     ),
+    'navigation_album:node/add/album' => array(
+      0 => array(
+        'rid' => 3,
+      ),
+    ),
+    'navigation_discography-import:node/add/discog-import' => array(
+      0 => array(
+        'rid' => 3,
+      ),
+    ),
+    'navigation_landing-page:node/add/landing_page' => array(
+      0 => array(
+        'rid' => 3,
+      ),
+    ),
   );
   return $items;
 }
