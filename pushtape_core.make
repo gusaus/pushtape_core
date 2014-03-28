@@ -63,6 +63,12 @@ projects[responsive_menus][subdir] = contrib
 projects[responsive_tables][version] = 2.x-dev
 projects[responsive_tables][subdir] = contrib
 
+projects[rules][version] = 2.6
+projects[rules][subdir] = contrib
+
+projects[rules_linkevent][version] = 1.0-beta1
+projects[rules_linkevent][subdir] = contrib
+
 projects[soundmanager2][version] = 2.0-beta1
 projects[soundmanager2][subdir] = contrib
 

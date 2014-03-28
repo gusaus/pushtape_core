@@ -24,34 +24,20 @@ function pushtape_core_ctools_plugin_api($module = NULL, $api = NULL) {
  */
 function pushtape_core_menu_item_visibility_export_fields() {
   $items = array(
-    'management_configuration:admin/config' => array(
+    'management_designer:designer' => array(
       0 => array(
         'rid' => 3,
       ),
+      1 => array(
+        'rid' => 4,
+      ),
     ),
-    'management_panopoly:admin/panopoly' => array(
+    'management_editor:editor' => array(
       0 => array(
         'rid' => 3,
       ),
-    ),
-    'management_structure:admin/structure' => array(
-      0 => array(
-        'rid' => 3,
-      ),
-    ),
-    'navigation_album:node/add/album' => array(
-      0 => array(
-        'rid' => 3,
-      ),
-    ),
-    'navigation_discography-import:node/add/discog-import' => array(
-      0 => array(
-        'rid' => 3,
-      ),
-    ),
-    'navigation_landing-page:node/add/landing_page' => array(
-      0 => array(
-        'rid' => 3,
+      1 => array(
+        'rid' => 5,
       ),
     ),
   );
