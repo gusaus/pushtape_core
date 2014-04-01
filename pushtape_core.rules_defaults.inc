@@ -18,12 +18,12 @@ function pushtape_core_default_rules_configuration() {
       "DO" : [
         { "user_add_role" : {
             "account" : [ "site:current-user" ],
-            "roles" : { "value" : { "5" : "5" } }
+            "roles" : { "value" : { "208027146" : "208027146" } }
           }
         },
         { "user_remove_role" : {
             "account" : [ "site:current-user" ],
-            "roles" : { "value" : { "4" : "4" } }
+            "roles" : { "value" : { "200153887" : "200153887" } }
           }
         }
       ]
@@ -38,12 +38,12 @@ function pushtape_core_default_rules_configuration() {
       "DO" : [
         { "user_add_role" : {
             "account" : [ "site:current-user" ],
-            "roles" : { "value" : { "4" : "4" } }
+            "roles" : { "value" : { "200153887" : "200153887" } }
           }
         },
         { "user_remove_role" : {
             "account" : [ "site:current-user" ],
-            "roles" : { "value" : { "5" : "5" } }
+            "roles" : { "value" : { "208027146" : "208027146" } }
           }
         }
       ]

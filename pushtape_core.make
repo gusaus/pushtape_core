@@ -40,10 +40,6 @@ projects[flexslider][subdir] = contrib
 projects[media_colorbox][version] = 1.x-dev
 projects[media_colorbox][subdir] = contrib
 
-projects[menu_item_visibility][version] = 1.x-dev
-projects[menu_item_visibility][subdir] = contrib
-projects[menu_item_visibility][patch][1964994] = http://drupal.org/files/issues/menu_item_visibility_features_integration_1964994_3.patch
-
 projects[multiform][version] = 1.0
 projects[multiform][subdir] = contrib
 

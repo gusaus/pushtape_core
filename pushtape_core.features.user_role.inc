@@ -14,7 +14,14 @@ function pushtape_core_user_default_roles() {
   $roles['designer'] = array(
     'name' => 'designer',
     'weight' => 2,
-    'machine_name' => '',
+    'machine_name' => 'designer',
+  );
+
+  // Exported role: editor.
+  $roles['editor'] = array(
+    'name' => 'editor',
+    'weight' => 3,
+    'machine_name' => 'editor',
   );
 
   return $roles;

@@ -18,28 +18,3 @@ function pushtape_core_ctools_plugin_api($module = NULL, $api = NULL) {
     return array("version" => "1");
   }
 }
-
-/**
- * Implements hook_menu_item_visibility_export_fields().
- */
-function pushtape_core_menu_item_visibility_export_fields() {
-  $items = array(
-    'management_designer:designer' => array(
-      0 => array(
-        'rid' => 3,
-      ),
-      1 => array(
-        'rid' => 4,
-      ),
-    ),
-    'management_editor:editor' => array(
-      0 => array(
-        'rid' => 3,
-      ),
-      1 => array(
-        'rid' => 5,
-      ),
-    ),
-  );
-  return $items;
-}

@@ -10,6 +10,45 @@
 function pushtape_core_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: management_administration:admin
+  $menu_links['management_administration:admin'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin',
+    'router_path' => 'admin',
+    'link_title' => 'Administration',
+    'options' => array(
+      'alter' => TRUE,
+      'identifier' => 'management_administration:admin',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => 9,
+    'customized' => 0,
+  );
+  // Exported menu link: management_configuration:admin/config
+  $menu_links['management_configuration:admin/config'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/config',
+    'router_path' => 'admin/config',
+    'link_title' => 'Configuration',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Administer settings.',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'management_configuration:admin/config',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => 38,
+    'customized' => 1,
+  );
   // Exported menu link: management_content:admin/content
   $menu_links['management_content:admin/content'] = array(
     'menu_name' => 'management',
@@ -32,18 +71,18 @@ function pushtape_core_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
-  // Exported menu link: management_editor:editor
-  $menu_links['management_editor:editor'] = array(
+  // Exported menu link: management_designer:designer
+  $menu_links['management_designer:designer'] = array(
     'menu_name' => 'management',
-    'link_path' => 'editor',
-    'router_path' => 'editor',
-    'link_title' => 'Editor',
+    'link_path' => 'designer',
+    'router_path' => 'designer',
+    'link_title' => 'Designer',
     'options' => array(
       'attributes' => array(
-        'title' => 'Switch to edit mode',
+        'title' => 'Switch into design mode',
       ),
       'alter' => TRUE,
-      'identifier' => 'management_editor:editor',
+      'identifier' => 'management_designer:designer',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -120,6 +159,27 @@ function pushtape_core_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
+  // Exported menu link: management_panopoly:admin/panopoly
+  $menu_links['management_panopoly:admin/panopoly'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/panopoly',
+    'router_path' => 'admin/panopoly',
+    'link_title' => 'Panopoly',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Administer all things Panopoly.',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'management_panopoly:admin/panopoly',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => 48,
+    'customized' => 1,
+  );
   // Exported menu link: management_site-information:admin/config/system/site-information
   $menu_links['management_site-information:admin/config/system/site-information'] = array(
     'menu_name' => 'management',
@@ -141,6 +201,27 @@ function pushtape_core_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
+  );
+  // Exported menu link: management_structure:admin/structure
+  $menu_links['management_structure:admin/structure'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/structure',
+    'router_path' => 'admin/structure',
+    'link_title' => 'Structure',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Administer blocks, content types, menus, etc.',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'management_structure:admin/structure',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => 40,
+    'customized' => 1,
   );
   // Exported menu link: management_web-services:admin/config/services
   $menu_links['management_web-services:admin/config/services'] = array(
@@ -166,12 +247,16 @@ function pushtape_core_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
+  t('Administration');
+  t('Configuration');
   t('Content');
-  t('Editor');
+  t('Designer');
   t('Files');
   t('Main menu');
   t('Pages');
+  t('Panopoly');
   t('Site information');
+  t('Structure');
   t('Web services');
 
 

@@ -420,8 +420,8 @@ function pushtape_core_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'rules_event_whitelist';
   $strongarm->value = array(
-    'rules_linkevent_design_mode' => 0,
-    'rules_linkevent_edit_mode' => 1,
+    'rules_linkevent_edit_mode' => 0,
+    'rules_linkevent_design_mode' => 1,
   );
   $export['rules_event_whitelist'] = $strongarm;
 
