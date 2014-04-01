@@ -62,6 +62,9 @@ projects[responsive_menus][subdir] = contrib
 projects[responsive_tables][version] = 2.x-dev
 projects[responsive_tables][subdir] = contrib
 
+projects[role_export][version] = 1.x-dev
+projects[role_export][subdir] = contrib
+
 projects[rules][version] = 2.6
 projects[rules][subdir] = contrib
 
