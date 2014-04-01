@@ -46,6 +46,15 @@ features[rules_config][] = rules_design_mode
 features[rules_config][] = rules_edit_mode
 features[user_role][] = designer
 features[user_role][] = editor
+features[variable][] = panels_page_allowed_layouts
 features[variable][] = panels_page_allowed_types
 features[variable][] = rules_event_whitelist
 features[variable][] = rules_linkevent
+
+
+; Information added by drush on 2014-04-01
+version = "7.x-1.x-panels-dev"
+core = "7.x"
+project = "pushtape_core"
+datestamp = "1396340893"
+
