@@ -40,11 +40,11 @@ projects[multiupload_imagefield_widget][subdir] = contrib
 projects[plupload][subdir] = 2.x-dev
 projects[plupload][subdir] = contrib
 
-projects[responsive_menus][subdir] = 1.4
-projects[responsive_menus][subdir] = contrib
+;projects[responsive_menus][subdir] = 1.4
+;projects[responsive_menus][subdir] = contrib
 
-projects[responsive_tables][version] = 2.x-dev
-projects[responsive_tables][subdir] = contrib
+;projects[responsive_tables][version] = 2.x-dev
+;projects[responsive_tables][subdir] = contrib
 
 projects[role_export][version] = 1.x-dev
 projects[role_export][subdir] = contrib
@@ -58,8 +58,8 @@ projects[rules_linkevent][subdir] = contrib
 projects[soundmanager2][version] = 2.0-beta1
 projects[soundmanager2][subdir] = contrib
 
-projects[views_responsive_grid][version] = 1.3
-projects[views_responsive_grid][subdir] = contrib
+;projects[views_responsive_grid][version] = 1.3
+;projects[views_responsive_grid][subdir] = contrib
 
 
 
