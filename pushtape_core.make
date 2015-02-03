@@ -19,11 +19,21 @@ projects[context][subdir] = contrib
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib
 
-projects[features_override][subdir] = 2.0-rc2
-projects[features_override][subdir] = contrib
+;projects[features_override][subdir] = 2.0-rc2
+;projects[features_override][subdir] = contrib
 
 projects[flexslider][version] = 2.x-dev
 projects[flexslider][subdir] = contrib
+
+projects[media][version] = 2.x-dev
+projects[media][subdir] = contrib
+projects[media][download][type] = git
+projects[media][download][revision] = 6382429
+projects[media][download][branch] = 7.x-2.x
+projects[media][patch][2192981] = http://drupal.org/files/issues/media-restore-edit-button-2192981-13.patch
+projects[media][patch][2126697] = http://drupal.org/files/issues/media-wysiwyg-alt-title-handling-2126697-27.patch
+projects[media][patch][2308487] = http://drupal.org/files/issues/media-alt-title-double-encoded-2308487-1.patch
+projects[media][patch][951004] = http://drupal.org/files/issues/allow_selecting_of-951004-106.patch
 
 projects[media_colorbox][version] = 1.x-dev
 projects[media_colorbox][subdir] = contrib
@@ -31,11 +41,11 @@ projects[media_colorbox][subdir] = contrib
 projects[multiform][version] = 1.1
 projects[multiform][subdir] = contrib
 
-projects[multiupload_filefield_widget][subdir] = 1.13
-projects[multiupload_filefield_widget][subdir] = contrib
+;projects[multiupload_filefield_widget][subdir] = 1.13
+;projects[multiupload_filefield_widget][subdir] = contrib
 
-projects[multiupload_imagefield_widget][subdir] = 1.3
-projects[multiupload_imagefield_widget][subdir] = contrib
+;projects[multiupload_imagefield_widget][subdir] = 1.3
+;projects[multiupload_imagefield_widget][subdir] = contrib
 
 projects[plupload][subdir] = 2.x-dev
 projects[plupload][subdir] = contrib
