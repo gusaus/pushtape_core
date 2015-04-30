@@ -560,9 +560,21 @@ function pushtape_core_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_node_panopoly_page_pattern';
-  $strongarm->value = '[node:title]';
-  $export['pathauto_node_panopoly_page_pattern'] = $strongarm;
+  $strongarm->name = 'rules_event_whitelist';
+  $strongarm->value = array(
+    'rules_linkevent_design_mode' => 0,
+    'rules_linkevent_edit_mode' => 1,
+  );
+  $export['rules_event_whitelist'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'rules_linkevent';
+  $strongarm->value = 'design_mode|designer|Design mode
+
+edit_mode|editor|Edit mode';
+  $export['rules_linkevent'] = $strongarm;
 
   return $export;
 }

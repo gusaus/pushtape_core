@@ -13,14 +13,11 @@ projects[calendar][subdir] = contrib
 projects[colorbox][version] = 2.x-dev
 projects[colorbox][subdir] = contrib
 
-projects[context][version] = 3.2
+projects[context][version] = 3.6
 projects[context][subdir] = contrib
 
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib
-
-;projects[features_override][subdir] = 2.0-rc2
-;projects[features_override][subdir] = contrib
 
 projects[flexslider][version] = 2.x-dev
 projects[flexslider][subdir] = contrib
@@ -31,13 +28,13 @@ projects[media_colorbox][subdir] = contrib
 projects[multiform][version] = 1.1
 projects[multiform][subdir] = contrib
 
-;projects[multiupload_filefield_widget][subdir] = 1.13
-;projects[multiupload_filefield_widget][subdir] = contrib
+projects[multiupload_filefield_widget][subdir] = 1.13
+projects[multiupload_filefield_widget][subdir] = contrib
 
 ;projects[multiupload_imagefield_widget][subdir] = 1.3
 ;projects[multiupload_imagefield_widget][subdir] = contrib
 
-projects[plupload][subdir] = 2.x-dev
+projects[plupload][subdir] = 1.x-dev
 projects[plupload][subdir] = contrib
 
 ;projects[responsive_menus][subdir] = 1.4
@@ -49,7 +46,7 @@ projects[plupload][subdir] = contrib
 projects[role_export][version] = 1.x-dev
 projects[role_export][subdir] = contrib
 
-projects[rules][version] = 2.7
+projects[rules][version] = 2.9
 projects[rules][subdir] = contrib
 
 projects[rules_linkevent][version] = 1.0-beta1
