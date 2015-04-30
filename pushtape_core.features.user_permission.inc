@@ -132,7 +132,10 @@ function pushtape_core_user_default_permissions() {
   // Exported permission: 'administer panelizer node news content'.
   $permissions['administer panelizer node news content'] = array(
     'name' => 'administer panelizer node news content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
     'module' => 'panelizer',
   );
 
@@ -295,6 +298,7 @@ function pushtape_core_user_default_permissions() {
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'path',
@@ -377,6 +381,8 @@ function pushtape_core_user_default_permissions() {
     'name' => 'view private files',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
       'editor' => 'editor',
     ),
     'module' => 'file_entity',

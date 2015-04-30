@@ -1,7 +1,7 @@
 name = Pushtape Core
 core = 7.x
 package = Pushtape
-version = 7.x-1.0-panels
+version = 7.x-1.0-beta3
 project = pushtape_core
 dependencies[] = better_formats
 dependencies[] = block
@@ -27,9 +27,11 @@ dependencies[] = path
 dependencies[] = plupload
 dependencies[] = responsive_menus
 dependencies[] = role_export
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = rules_linkevent
 dependencies[] = strongarm
-dependencies[] = system
-datestamp = 1407519990
+datestamp = 1396311502
 features[context][] = footer
 features[ctools][] = context:context:3
 features[ctools][] = page_manager:pages_default:1
@@ -91,4 +93,13 @@ features[variable][] = file_entity_file_upload_wizard_skip_file_type
 features[variable][] = file_entity_file_upload_wizard_skip_scheme
 features[variable][] = panels_page_allowed_layouts
 features[variable][] = panels_page_allowed_types
-features[variable][] = pathauto_node_panopoly_page_pattern
+features[variable][] = rules_event_whitelist
+features[variable][] = rules_linkevent
+
+
+; Information added by drush on 2014-04-01
+version = "7.x-1.x-panels-dev"
+core = "7.x"
+project = "pushtape_core"
+datestamp = "1396340893"
+

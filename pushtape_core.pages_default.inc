@@ -127,7 +127,18 @@ function pushtape_core_default_page_manager_pages() {
       'path' => NULL,
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => array(
+        'pane_style' => array(
+          'well' => 'well',
+          'pull-left' => 0,
+          'pull-right' => 0,
+          'clearfix' => 0,
+          'jumbotron' => 0,
+        ),
+      ),
+      'style' => 'bootstrapcustomize',
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;
@@ -167,7 +178,16 @@ function pushtape_core_default_page_manager_pages() {
     );
     $pane->cache = array();
     $pane->style = array(
-      'settings' => NULL,
+      'settings' => array(
+        'pane_style' => array(
+          'well' => 'well',
+          'pull-left' => 0,
+          'pull-right' => 0,
+          'clearfix' => 0,
+          'jumbotron' => 0,
+        ),
+      ),
+      'style' => 'bootstrapcustomize',
     );
     $pane->css = array();
     $pane->extras = array();
@@ -187,7 +207,18 @@ function pushtape_core_default_page_manager_pages() {
       'override_title_text' => '',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => array(
+        'pane_style' => array(
+          'well' => 'well',
+          'pull-left' => 0,
+          'pull-right' => 0,
+          'clearfix' => 0,
+          'jumbotron' => 0,
+        ),
+      ),
+      'style' => 'bootstrapcustomize',
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 1;
@@ -226,7 +257,18 @@ function pushtape_core_default_page_manager_pages() {
       'header_type' => 'none',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => array(
+        'pane_style' => array(
+          'well' => 'well',
+          'pull-left' => 0,
+          'pull-right' => 0,
+          'clearfix' => 0,
+          'jumbotron' => 0,
+        ),
+      ),
+      'style' => 'bootstrapcustomize',
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;
@@ -303,7 +345,18 @@ function pushtape_core_default_page_manager_pages() {
       'header_type' => 'none',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => array(
+        'pane_style' => array(
+          'well' => 'well',
+          'pull-left' => 0,
+          'pull-right' => 0,
+          'clearfix' => 0,
+          'jumbotron' => 0,
+        ),
+      ),
+      'style' => 'bootstrapcustomize',
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;
@@ -338,7 +391,18 @@ function pushtape_core_default_page_manager_pages() {
       'header_type' => 'none',
     );
     $pane->cache = array();
-    $pane->style = array();
+    $pane->style = array(
+      'settings' => array(
+        'pane_style' => array(
+          'well' => 'well',
+          'pull-left' => 0,
+          'pull-right' => 0,
+          'clearfix' => 0,
+          'jumbotron' => 0,
+        ),
+      ),
+      'style' => 'bootstrapcustomize',
+    );
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;
