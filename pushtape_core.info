@@ -20,18 +20,19 @@ dependencies[] = menu
 dependencies[] = multiform
 dependencies[] = navbar
 dependencies[] = node
+dependencies[] = page_manager
 dependencies[] = panelizer
 dependencies[] = panels
 dependencies[] = panopoly_core
 dependencies[] = path
 dependencies[] = plupload
-;dependencies[] = responsive_menus
 dependencies[] = role_export
 dependencies[] = rules
 dependencies[] = rules_admin
 dependencies[] = rules_linkevent
 dependencies[] = strongarm
-datestamp = 1396311502
+dependencies[] = system
+datestamp = 1396340893
 features[context][] = footer
 features[ctools][] = context:context:3
 features[ctools][] = page_manager:pages_default:1
@@ -48,6 +49,7 @@ features[menu_links][] = management_pages:admin/structure/pages
 features[menu_links][] = management_panopoly:admin/panopoly
 features[menu_links][] = management_site-information:admin/config/system/site-information
 features[menu_links][] = management_web-services:admin/config/services
+features[page_manager_pages][] = pushtape_front
 features[user_permission][] = access administration pages
 features[user_permission][] = access content overview
 features[user_permission][] = access media browser
@@ -95,11 +97,3 @@ features[variable][] = panels_page_allowed_layouts
 features[variable][] = panels_page_allowed_types
 features[variable][] = rules_event_whitelist
 features[variable][] = rules_linkevent
-
-
-; Information added by drush on 2014-04-01
-version = "7.x-1.x-panels-dev"
-core = "7.x"
-project = "pushtape_core"
-datestamp = "1396340893"
-
