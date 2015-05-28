@@ -7,7 +7,7 @@ api = 2
 projects[better_formats][version] = 1.x-dev
 projects[better_formats][subdir] = contrib
 
-projects[calendar][version] = 3.4
+projects[calendar][version] = 3.5
 projects[calendar][subdir] = contrib
 
 projects[colorbox][version] = 2.x-dev
@@ -31,17 +31,11 @@ projects[multiform][subdir] = contrib
 projects[multiupload_filefield_widget][subdir] = 1.13
 projects[multiupload_filefield_widget][subdir] = contrib
 
-;projects[multiupload_imagefield_widget][subdir] = 1.3
-;projects[multiupload_imagefield_widget][subdir] = contrib
+projects[panels_bootstrap_styles][subdir] = 1.x-dev
+projects[panels_bootstrap_styles][subdir] = contrib
 
 projects[plupload][subdir] = 1.x-dev
 projects[plupload][subdir] = contrib
-
-;projects[responsive_menus][subdir] = 1.4
-;projects[responsive_menus][subdir] = contrib
-
-;projects[responsive_tables][version] = 2.x-dev
-;projects[responsive_tables][subdir] = contrib
 
 projects[role_export][version] = 1.x-dev
 projects[role_export][subdir] = contrib
@@ -54,9 +48,6 @@ projects[rules_linkevent][subdir] = contrib
 
 projects[soundmanager2][version] = 2.0-beta1
 projects[soundmanager2][subdir] = contrib
-
-;projects[views_responsive_grid][version] = 1.3
-;projects[views_responsive_grid][subdir] = contrib
 
 
 
