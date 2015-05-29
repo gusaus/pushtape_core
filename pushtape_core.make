@@ -28,13 +28,13 @@ projects[media_colorbox][subdir] = contrib
 projects[multiform][version] = 1.1
 projects[multiform][subdir] = contrib
 
-projects[multiupload_filefield_widget][subdir] = 1.13
+projects[multiupload_filefield_widget][version] = 1.13
 projects[multiupload_filefield_widget][subdir] = contrib
 
-projects[panels_bootstrap_styles][subdir] = 1.x
+projects[panels_bootstrap_styles][version] = 1.x-dev
 projects[panels_bootstrap_styles][subdir] = contrib
 
-projects[plupload][subdir] = 1.x-dev
+projects[plupload][version] = 1.x-dev
 projects[plupload][subdir] = contrib
 
 projects[role_export][version] = 1.x-dev
