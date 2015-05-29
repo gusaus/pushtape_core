@@ -31,7 +31,7 @@ projects[multiform][subdir] = contrib
 projects[multiupload_filefield_widget][subdir] = 1.13
 projects[multiupload_filefield_widget][subdir] = contrib
 
-projects[panels_bootstrap_styles][subdir] = 1.x-dev
+projects[panels_bootstrap_styles][subdir] = 1.x
 projects[panels_bootstrap_styles][subdir] = contrib
 
 projects[plupload][subdir] = 1.x-dev
