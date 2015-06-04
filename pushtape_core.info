@@ -99,3 +99,4 @@ features[variable][] = panels_page_allowed_layouts
 features[variable][] = panels_page_allowed_types
 features[variable][] = rules_event_whitelist
 features[variable][] = rules_linkevent
+features[variable][] = theme_pushtape_bootstrap_settings

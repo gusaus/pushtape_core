@@ -22,6 +22,8 @@ projects[entity_view_mode][subdir] = contrib
 projects[flexslider][version] = 2.x-dev
 projects[flexslider][subdir] = contrib
 
+projects[media][patch][951004] = https://www.drupal.org/files/issues/allow_selecting_of-951004-136.patch
+
 projects[media_colorbox][version] = 1.x-dev
 projects[media_colorbox][subdir] = contrib
 
